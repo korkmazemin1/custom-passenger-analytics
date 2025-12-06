@@ -8,6 +8,15 @@ This project integrates **YOLOv11** (State-of-the-Art Detection) with **OSNet** 
 🌟 Key Features
 ---------------
 
+<p align="center">
+  <img src="sample.png" alt="Real-Time Passenger Analytics Pipeline Demonstration" width="850">
+  <br>
+  <em>Figure 1: Visualizing the AI pipeline workflow (Detection -> Tracking -> Re-ID & Memory Bank)</em>
+</p>
+
+
+
+
 *   **⚡ Real-Time Inference:** Optimized for **NVIDIA GPU (CUDA)** execution using FP16 (Half-Precision) for maximum FPS.
     
 *   **🧠 Smart Memory Bank:** Features a "Cold Start" filter. The system analyzes a person for **50 frames** (~2 seconds) to build a stable vector profile before registering them.
@@ -123,7 +132,16 @@ The system provides a Heads-Up Display (HUD) on the video feed to visualize the 
 📂 Project Structure
 --------------------
 
-`   custom-passenger-analytics/  ├── env/                   # Virtual Environment  ├── weights/               # MODEL WEIGHTS GO HERE  │   ├── osnet_ain_ms_d_c.pth  <-- (Download this manually)  │   └── yolo11x.pt            <-- (Auto-downloaded)  ├── install.py             # ✨ Smart Installer Script  ├── main.py                # 🧠 Main Inference Pipeline  ├── requirements.txt       # Dependency list  ├── README.md              # Documentation  └── .gitignore   `
+custom-passenger-analytics/
+├── env/                   # Virtual Environment
+├── weights/               # MODEL WEIGHTS GO HERE
+│   ├── osnet_ain_ms_d_c.pth  <-- (Download this manually)
+│   └── yolo11x.pt            <-- (Auto-downloaded)
+├── install.py             # ✨ Smart Installer Script
+├── main.py                # 🧠 Main Inference Pipeline
+├── requirements.txt       # Dependency list
+├── README.md              # Documentation
+└── .gitignore
 
 🔧 Requirements
 ---------------
