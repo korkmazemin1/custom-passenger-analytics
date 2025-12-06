@@ -1,0 +1,26 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Large Model Weights (DO NOT UPLOAD TO GITHUB)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# YOLO Logs
+runs/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db

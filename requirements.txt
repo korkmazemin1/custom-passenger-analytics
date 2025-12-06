@@ -1,0 +1,37 @@
+# ==========================================
+# CORE & BUILD TOOLS
+# ==========================================
+# Required for compiling C extensions
+cython
+
+# Required dependencies for Torchreid setup
+gdown
+yacs
+numpy
+
+# ==========================================
+# COMPUTER VISION & AI
+# ==========================================
+# Core PyTorch libraries
+torch
+torchvision
+
+# OpenCV for image/video processing
+opencv-python
+
+# Image manipulation
+Pillow
+
+# ==========================================
+# OBJECT DETECTION
+# ==========================================
+# YOLOv8 / YOLOv11 library
+ultralytics
+
+# ==========================================
+# METRICS & UTILITIES
+# ==========================================
+scikit-learn
+scipy
+matplotlib
+tensorboard
