@@ -80,7 +80,7 @@ Installing torchreid manually can cause errors due to build isolation (e.g., Mod
 
 **Do NOT run pip install -r requirements.txt directly.** Instead, run:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python install.py   `
+`   python install.py   `
 
 **What does install.py do?**
 
@@ -96,7 +96,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 Once installed and the weights are in place, run the main pipeline:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python main.py   `
+`   python main.py   `
 
 ### Controls
 
@@ -107,7 +107,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 You can tweak the logic inside main.py to fit your camera setup:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`# Number of frames to wait before saving a person to memory (Default: 50)  FRAMES_TO_REGISTER = 50   # Similarity threshold (0.0 - 1.0). Higher means stricter matching.  SIMILARITY_THRESHOLD = 0.65` 
+`# Number of frames to wait before saving a person to memory (Default: 50)  FRAMES_TO_REGISTER = 50   # Similarity threshold (0.0 - 1.0). Higher means stricter matching.  SIMILARITY_THRESHOLD = 0.65` 
 
 📊 Visuals & UI (HUD)
 ---------------------
@@ -124,7 +124,7 @@ The system provides a Heads-Up Display (HUD) on the video feed to visualize the 
 📂 Project Structure
 --------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   custom-passenger-analytics/  ├── env/                   # Virtual Environment  ├── weights/               # MODEL WEIGHTS GO HERE  │   ├── osnet_ain_ms_d_c.pth  <-- (Download this manually)  │   └── yolo11x.pt            <-- (Auto-downloaded)  ├── install.py             # ✨ Smart Installer Script  ├── main.py                # 🧠 Main Inference Pipeline  ├── requirements.txt       # Dependency list  ├── README.md              # Documentation  └── .gitignore   `
+`   custom-passenger-analytics/  ├── env/                   # Virtual Environment  ├── weights/               # MODEL WEIGHTS GO HERE  │   ├── osnet_ain_ms_d_c.pth  <-- (Download this manually)  │   └── yolo11x.pt            <-- (Auto-downloaded)  ├── install.py             # ✨ Smart Installer Script  ├── main.py                # 🧠 Main Inference Pipeline  ├── requirements.txt       # Dependency list  ├── README.md              # Documentation  └── .gitignore   `
 
 🔧 Requirements
 ---------------
