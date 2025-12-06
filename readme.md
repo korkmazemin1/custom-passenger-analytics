@@ -41,8 +41,7 @@ The pipeline operates in three synchronous stages per video frame:
 We have automated the complex dependency management (often called "Dependency Hell") with a custom script.
 
 ### 1\. Clone the Repository
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/your-username/custom-passenger-analytics.git  cd custom-passenger-analytics   `
+`   git clone https://github.com/your-username/custom-passenger-analytics.git  cd custom-passenger-analytics   `
 
 ### 2\. Download Model Weights (Critical) 📥
 
